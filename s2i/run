@@ -7,7 +7,7 @@ source /opt/app-root/etc/generate_container_user
 echo -e "Running as user $(id)"
 
 echo "Running this container is only recommended when running in test or development."
-echo "It is recommended to use this s2i image as a pure builder image and use it with an openshift chain build https://docs.okd.io/latest/dev_guide/builds/advanced_build_operations.html#dev-guide-chaining-builds"
+echo "It is recommended to use this s2i image as a pure builder image and use it with an openshift chain build https://docs.okd.io/3.11/dev_guide/builds/advanced_build_operations.html#dev-guide-chaining-builds"
 
 if [ ! -z "$MKDOCS_RUN" ]; then
   echo "---> Running application ($MKDOCS_RUN) ..."
