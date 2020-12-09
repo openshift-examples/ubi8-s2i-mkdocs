@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/python-36:latest
+FROM registry.access.redhat.com/ubi8/python-38:latest
 EXPOSE 8080
 
 ENV OUTPUT_DIR=build \
